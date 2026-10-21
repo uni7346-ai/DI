@@ -1,0 +1,101 @@
+df.shape : (행 수, 열 수)
+df.info() : 열별 자료형 + 결측이 아닌 개수
+df.describe() : 숫자 열의 개수, 평균, 표준편차, min,max,사분위
+df.isnull().sum() : 열별 결측치 개수
+df.duplicated().sum() : 중복 행 개수
+df["col"].unique() : 그 열에 등장한 값의 종류
+분포(히스토그램, 박스플롯): sns.histplot, sns.boxplot
+관계(산점도) : sns.scatterplot
+추이(선 그래프) : plt.plot, sns.lineplot
+비교(막대 그래프) : sns.barplot, plt.bar
+
+
+결측치에도 이유가 있다
+.loc[행라벨, 열라벨], df.loc[5,"age"] 특정 행, 열을 이름으로 정확히
+.iloc[행번호, 열번호], df.iloc[5,1] 순서대로 N번째를 위치로
+불리언 인덱싱, df[조건] 또는 df.loc[조건,"col"] 조건에 맞는 행 전부
+
+.isin([...]) : 여러 값 중 하나인지 검사
+.between(a,b) : a 이상 b 이하인지 검사(기본 양끝 포함)
+.query("...") : 문자열 조건식으로 필터
+~(틸드) : 불리언 반전(NOT)
+
+df.isnull().sum() : 열별 결측 개수
+df.isnull().mean() : 열별 결측 비율(0~1)
+df.isnull().sum(axis=1) : 행별 결측 개수(어떤 행이 많이 비었나)
+df[df["col"].isnull()] : 특정 열이 결측인 행들
+결측 히트맵(matplotlib) : 결측의 분포를 그림으로
+
+MCAR : 완전히 무작위, 결측이 어떤 다른 컬럼과도 상관없음, 제거 평균/중앙값 대체 모두 비교적 안전
+MAR : 다른 관측된 컬럼이 원인, 결측 비율이 특정 그룹에서 다름, 그룹별 대체 같은 채널연령의 평균 등
+MNAR: 결측 값 자체가 원인, 다른 컬럼으로 설명 안되는 쏠림, 단순 대체는 위험, 결측 자체를 '이런 상태였다'는 신호로 보존하거나 별도 모델 
+
+dropna() : 결측행/ 열을 제거
+fillna(값) : 결측을 특정 값으로 채움
+fillna(통계량) : 평균/중앙값/최빈값으로 채움
+그룹별 transform("median") : 같은 그룹 내 통계량으로 채움
+ffill() / bfill() 앞/뒤 값으로 채움
+결측 플래그 : 결측이 있었다는 사실을 별도 컬럼에 보존
+
+
+
+
+axis=0 : 위아래(행 방향)로 쌓기
+axis=1 : 좌우(열 방향)로 붙이기
+ignore_index=True : 합친 뒤 인덱스를 0부터 다시매킴
+keys=[...] : 어느 조각에서 왔는지 라벨달기
+inner : 교집합(양쪽 모두에 있는 키만)
+left : 왼쪽기준(왼쪽은 전부  + 오른쪽은 맞는 것만)
+right : 오른쪽기준(오른쪽 전부 + 왼쪽은 맞는 것만)
+outer : 합집합(어느 한쪽에라도 있으면 전부)
+키중복 : df["key"].duplicated().sum()  행 폭증
+짝 안맞는 키 : ~left["key"].isin(right["key"]) 조용한 결측
+병합 검증 옵션 : merge(..., validated="m:1") 관계 가정 위반 시 에러로 알려줌
+출처 표시 : merge(..., indicator=True) 어느 쪽에서 왔는지 _merge 열로 확인
+한 열, 한 함수 : df.groupby("region")["amount"].mean() 지역별 평균 금액
+여러 함수 : df.groupby("region")["amount"].agg(["mean", "sum", "count"]) 지역별 평균 합 건수
+여러 열 이름 지정 : agg(매출=("amount", "sum", "count")) 보기 좋은 이름의 요약표
+여러 기준 : df.groupby(["region", "membership"]) 지역 x 등급 교차 그룹
+
+문자열과 날짜, 쓸 수 있는 형태로
+
+.str.strip() : 앞뒤 공백 제거
+.str.lower()/.str.upper() : 소문자/대문자로 통일
+.str.replace(a,b) : a를 b로 치환
+.str.len() : 글자수
+
+.str.contains("gmail") : 그 글자를 포함하는가?  True/False
+.str.startswith("010") : 그 글자로 시작하는가? True/False
+.str.split("@") : 기준 글자로 쪼개 리스트로 
+.str.split("@").str[1] : 쪼갠 뒤 N번째 조각 선택
+.str[0:3] : 글자 위치로 잘라내기
+
+.str.extract(r"패턴") : 그룹() 부분을 뽑아 새 컬럼으로
+.str.findall(r"패턴") : 일치하는 모든 조각을 리스트로
+.str.replace(r"패턴", "", regex=True) : 패턴에 맞는 부분을 치환/삭제
+.str.contains(r"패턴", regex=True) 페턴이 있는지 참/거짓
+
+패턴
+\d : 숫자 한개 (0~9)
+\w : 글자/숫자/밑줄 한개
++ : 바로 앞 패턴을 1번 이상 반복
+[...] : 괄호 안 글자 중 하나
+. : 아무 글자 한개
+() :뽑아낼 부분을 묶음
+
+pd.to_datetime(s) : 알아서 형식을 추론해 변환
+format="..." : 형식을 직접 지정
+format="mixed" 행마다 형식이 다를 때 각자 추론
+errors="coerce" : 변환 못 하는 값은 NaT로
+ 
+ 기호
+ %Y : 4자리연도
+ %m : 2자리 월
+ %d : 2자리 일
+ %H:%M:%S : 시:분:초
+
+ df.set_index("order_dt") : 날짜를 인덱스로
+ .resample("D").sum() : 하루 단위로 묶어 합계
+ .resample("W").sum() : 한 주 단위로 묶어 합계
+ .resample("h").count() : 한 시간 단위로 묶어 개수
+ .rolling(7).mean() : 최근 7개의 이동평균
