@@ -1,0 +1,511 @@
+order_id,region,membership,channel,category,customer_age,quantity,amount
+1,서울,basic,offline,electronics,63.0,5,64200.0
+2,대구,Gold,APP,food,18.0,1,16700.0
+3,부산 ,VIP,app,fashion,36.0,6,15000.0
+4,부산,vip,offline,food,40.0,1,42900.0
+5,부산,silver,online,electronics,58.0,1,65600.0
+6,광주,SILVER,offline,fashion,22.0,1,30700.0
+7,서울,gold,offline,beauty,38.0,4,10600.0
+8,부산 ,Basic,app,food,23.0,5,10000.0
+9, 서울,silver,APP,beauty,5.0,3,9500.0
+10,서울,Basic,app,electronics,49.0,1,7200.0
+11,부산,VIP, Online ,food,,2,32500.0
+12,광주,Gold,APP,fashion,36.0,6,73100.0
+13,대구,vip, Online ,electronics,23.0,7,29400.0
+14,대구,vip, Online ,food,65.0,6,4900.0
+15,대구,VIP,app,fashion,50.0,1,25500.0
+16,대구,basic,offline,beauty,32.0,6,26100.0
+17,부산,VIP, Online ,food,37.0,5,159000.0
+18,서울,basic,app,fashion,54.0,4,9300.0
+19,대구,SILVER,online,food,54.0,2,21800.0
+20,부산,gold,online,food,40.0,7,116400.0
+21,부산,silver,online,beauty,31.0,4,42600.0
+22,Seoul,Basic,online,electronics,51.0,1,46700.0
+23, 서울,Basic,offline,fashion,51.0,2,32600.0
+24,광주,vip,offline,fashion,47.0,3,
+25,대구,silver,offline,electronics,19.0,1,55400.0
+26,부산 ,silver,online,fashion,41.0,25,15600.0
+27,Seoul,VIP,online,food,48.0,4,60000.0
+28,대구,Basic, Online ,fashion,67.0,7,9900.0
+29,부산,VIP,app,fashion,43.0,1,38700.0
+30,부산,VIP, Online ,beauty,33.0,5,34300.0
+31,부산,gold,app,fashion,45.0,7,18200.0
+32, 서울,Basic,online,fashion,24.0,6,29200.0
+33,서울,Basic,APP,beauty,19.0,7,18100.0
+34,부산,silver, Online ,fashion,52.0,2,12600.0
+35,광주,gold,online,beauty,69.0,6,22400.0
+36,서울,Basic,APP,fashion,61.0,7,12300.0
+37,광주,SILVER,offline,fashion,47.0,3,38500.0
+38,대구,basic,online,fashion,17.0,4,11800.0
+39, 서울,gold,app,electronics,69.0,4,52600.0
+40,부산 ,basic,offline,electronics,39.0,4,11600.0
+41, 서울,Gold,APP,food,30.0,3,18900.0
+42,대구,basic,offline,fashion,64.0,7,18000.0
+43,부산 ,Basic,app,fashion,56.0,7,85800.0
+44,Seoul,Basic, Online ,electronics,56.0,3,38700.0
+45,서울,vip,APP,fashion,30.0,6,25100.0
+46,광주,basic,online,electronics,5.0,3,44300.0
+47,부산,SILVER, Online ,electronics,39.0,6,5500.0
+48,광주,gold,APP,beauty,44.0,5,28700.0
+49,부산 ,gold,APP,food,,4,147000.0
+50,대구,Gold,online,fashion,,1,33100.0
+51,대구,vip,app,food,24.0,5,31400.0
+52, 서울,SILVER, Online ,beauty,31.0,3,46100.0
+53,Seoul,vip,app,electronics,34.0,2,60900.0
+54,부산,silver,offline,electronics,67.0,2,6000.0
+55,부산,VIP,online,food,54.0,7,7700.0
+56,서울,gold,offline,fashion,35.0,1,35200.0
+57,부산,Gold,app,beauty,55.0,6,16800.0
+58, 서울,VIP,APP,beauty,55.0,7,84900.0
+59,대구,vip,app,beauty,36.0,1,23100.0
+60,부산 ,vip, Online ,beauty,37.0,5,6300.0
+61,광주,gold,APP,food,64.0,5,10800.0
+62,대구,basic,APP,food,45.0,3,3300.0
+63,Seoul,SILVER,online,fashion,23.0,5,24700.0
+64,광주,Basic,APP,beauty,54.0,3,25600.0
+65,Seoul,VIP,APP,electronics,47.0,99,
+66,Seoul,Basic, Online ,food,42.0,4,70500.0
+67,광주,Basic,offline,beauty,54.0,6,77600.0
+68,Seoul,Basic,APP,electronics,64.0,5,25900.0
+69,서울,Gold, Online ,beauty,33.0,3,
+70,부산,gold,online,beauty,38.0,7,48700.0
+71,대구,VIP,APP,fashion,,6,46400.0
+72, 서울,SILVER, Online ,food,50.0,7,38100.0
+73,부산,silver,APP,electronics,150.0,6,65200.0
+74,서울,basic,app,beauty,33.0,3,
+75,부산 ,basic,app,fashion,53.0,6,148300.0
+76,부산,silver,online,food,37.0,3,13800.0
+77,Seoul,VIP,APP,electronics,40.0,2,54100.0
+78, 서울,gold,online,beauty,39.0,4,7700.0
+79,부산,VIP,app,fashion,29.0,7,14100.0
+80,부산 ,basic,offline,electronics,21.0,4,100000.0
+81,광주,basic,offline,food,60.0,3,24100.0
+82,부산,vip,offline,fashion,20.0,4,58200.0
+83, 서울,basic,offline,electronics,32.0,3,35900.0
+84,대구,basic,app,food,51.0,5,27300.0
+85,부산 ,SILVER, Online ,electronics,22.0,3,88500.0
+86,부산 ,VIP,offline,food,51.0,4,24600.0
+87,서울,Gold,offline,beauty,55.0,3,7200.0
+88,Seoul,basic,offline,fashion,51.0,3,15600.0
+89,대구,vip,APP,beauty,31.0,7,46200.0
+90,대구,vip,online,fashion,16.0,3,40800.0
+91,부산,vip,app,electronics,63.0,1,
+92,대구,VIP,app,food,32.0,3,16700.0
+93,대구,Basic,offline,food,59.0,4,18700.0
+94,Seoul,VIP, Online ,fashion,25.0,1,22200.0
+95,광주,silver, Online ,electronics,150.0,3,9900.0
+96,Seoul,vip,online,fashion,57.0,2,18000.0
+97, 서울,gold,offline,electronics,66.0,4,16600.0
+98,부산 ,vip,APP,electronics,62.0,6,55100.0
+99,부산 ,Gold,online,beauty,56.0,7,56800.0
+100,서울,Gold,app,electronics,28.0,3,26500.0
+101,대구,gold,app,food,65.0,7,21700.0
+102, 서울,vip,app,electronics,51.0,2,33300.0
+103,대구,Gold,offline,beauty,24.0,25,15500.0
+104,서울,Basic,online,food,22.0,4,
+105,대구,vip, Online ,fashion,62.0,6,14000.0
+106,대구,gold,online,beauty,30.0,6,17900.0
+107,대구,silver, Online ,fashion,57.0,4,11700.0
+108,부산 ,gold,offline,electronics,22.0,2,33800.0
+109,부산,VIP,offline,fashion,30.0,4,53300.0
+110,부산 ,vip,online,fashion,30.0,6,8400.0
+111, 서울,vip,APP,beauty,30.0,7,30300.0
+112,대구,SILVER, Online ,fashion,52.0,7,24900.0
+113,부산,vip,online,electronics,65.0,2,39100.0
+114,부산,SILVER, Online ,electronics,65.0,5,29400.0
+115,부산,Gold,online,fashion,55.0,1,9300.0
+116,부산,Gold,app,fashion,26.0,5,10800.0
+117,서울,Basic,offline,beauty,67.0,7,30400.0
+118,서울,silver,app,electronics,44.0,1,67700.0
+119, 서울,basic,APP,fashion,45.0,5,5100.0
+120,서울,Basic,app,beauty,53.0,7,39200.0
+121,부산,SILVER,online,food,57.0,6,77000.0
+122,부산 ,SILVER,online,fashion,67.0,3,26300.0
+123,부산 ,Basic, Online ,beauty,47.0,1,46200.0
+124,부산,SILVER, Online ,fashion,48.0,7,16900.0
+125,대구,gold,offline,electronics,56.0,7,27000.0
+126,부산,Basic,offline,beauty,29.0,5,8100.0
+127,서울,silver,offline,electronics,31.0,7,4600.0
+128,대구,silver,APP,electronics,49.0,1,63200.0
+129,부산 ,gold,app,food,18.0,5,13500.0
+130,부산 ,silver,APP,fashion,32.0,1,20700.0
+131,부산,Gold,app,electronics,54.0,7,
+132,부산,silver,APP,beauty,68.0,5,9600.0
+133,서울,SILVER,APP,fashion,43.0,7,25900.0
+134,부산,SILVER,APP,beauty,36.0,4,
+135,대구,Basic,APP,food,39.0,1,40200.0
+136,Seoul,Gold,online,electronics,52.0,1,
+137,부산 ,Basic,APP,fashion,44.0,3,38400.0
+138,서울,silver, Online ,electronics,16.0,6,36000.0
+139,Seoul,vip,APP,fashion,44.0,2,105100.0
+140,부산,VIP,app,food,37.0,6,
+141,광주,Gold,offline,electronics,53.0,2,
+142, 서울,VIP, Online ,fashion,63.0,4,73600.0
+143, 서울,vip,offline,food,67.0,2,81800.0
+144,Seoul,SILVER,offline,electronics,48.0,4,9500.0
+145,광주,vip, Online ,fashion,34.0,4,23200.0
+146,대구,silver,app,food,39.0,1,88100.0
+147,서울,SILVER,app,food,24.0,4,44600.0
+148, 서울,gold,APP,electronics,66.0,6,34800.0
+149,대구,VIP,APP,beauty,61.0,7,25000.0
+150,서울,vip,offline,beauty,61.0,3,21900.0
+151,대구,SILVER, Online ,fashion,33.0,7,37400.0
+152, 서울,Gold,app,fashion,32.0,7,24300.0
+153,광주,Basic,app,fashion,62.0,7,28700.0
+154,Seoul,vip,offline,electronics,44.0,3,31700.0
+155,부산,gold, Online ,fashion,53.0,6,17300.0
+156,부산 ,gold,app,fashion,41.0,4,45500.0
+157,서울,vip,online,beauty,39.0,1,306000.0
+158,부산,Gold,offline,beauty,49.0,2,7200.0
+159,부산,basic, Online ,beauty,59.0,5,38500.0
+160,대구,silver, Online ,food,33.0,2,16200.0
+161,광주,Basic,app,electronics,59.0,4,47200.0
+162,부산 ,Gold,app,electronics,28.0,6,30900.0
+163,Seoul,basic,offline,fashion,37.0,2,54700.0
+164,Seoul,Basic,app,electronics,65.0,4,76100.0
+165,Seoul,gold,app,electronics,67.0,2,34700.0
+166,대구,Gold,online,food,65.0,4,73500.0
+167,Seoul,gold,online,beauty,150.0,2,4600.0
+168, 서울,vip, Online ,electronics,61.0,7,106100.0
+169,Seoul,VIP,offline,electronics,66.0,1,
+170,서울,Basic,offline,electronics,,7,70400.0
+171,서울,VIP,APP,beauty,16.0,6,11200.0
+172,서울,gold,APP,electronics,55.0,6,15300.0
+173,대구,Gold, Online ,food,69.0,6,33400.0
+174,대구,basic,online,beauty,57.0,2,29300.0
+175,부산 ,gold,online,electronics,27.0,7,37300.0
+176,부산,Gold, Online ,beauty,56.0,5,70800.0
+177,대구,gold, Online ,fashion,20.0,7,7200.0
+178, 서울,basic,online,food,41.0,7,64800.0
+179,광주,gold, Online ,beauty,49.0,5,29900.0
+180,부산,VIP,online,electronics,40.0,3,25300.0
+181,광주,Gold,APP,beauty,53.0,1,9200.0
+182, 서울,Basic,offline,fashion,28.0,1,44500.0
+183,부산,VIP,APP,fashion,48.0,3,4300.0
+184,부산 ,VIP,app,beauty,50.0,6,49900.0
+185,부산,Basic,app,food,49.0,4,9000.0
+186,부산,vip, Online ,electronics,30.0,4,31000.0
+187, 서울,SILVER,online,food,31.0,2,27000.0
+188,Seoul,gold,app,food,29.0,4,75800.0
+189, 서울,SILVER,app,beauty,40.0,5,25800.0
+190,Seoul,vip,online,fashion,47.0,7,17100.0
+191,부산 ,VIP,app,beauty,34.0,6,19800.0
+192,부산 ,vip, Online ,beauty,37.0,5,82300.0
+193,부산 ,VIP,online,electronics,30.0,7,45700.0
+194,Seoul,VIP,APP,food,27.0,3,21800.0
+195,광주,basic,app,fashion,51.0,7,24600.0
+196,서울,silver,APP,electronics,59.0,3,8500.0
+197,Seoul,Gold,APP,food,30.0,1,40600.0
+198,서울,gold,offline,fashion,62.0,3,7300.0
+199,Seoul,basic,offline,food,46.0,1,54300.0
+200,광주,basic,APP,beauty,24.0,1,33000.0
+201,Seoul,gold,offline,food,35.0,7,200700.0
+202,광주,gold,app,fashion,15.0,6,12300.0
+203,부산,Basic,offline,electronics,17.0,2,27400.0
+204,부산 ,Basic,APP,fashion,33.0,6,125300.0
+205,부산,Basic,APP,beauty,39.0,1,77100.0
+206, 서울,gold,offline,beauty,58.0,2,
+207,대구,basic,app,beauty,22.0,5,35600.0
+208,광주,gold,APP,beauty,61.0,3,29800.0
+209, 서울,SILVER, Online ,fashion,,6,37300.0
+210,대구,SILVER,offline,fashion,22.0,7,17000.0
+211, 서울,Gold,APP,food,53.0,1,27700.0
+212,대구,gold,APP,food,57.0,1,8300.0
+213,대구,Gold,app,beauty,48.0,7,
+214,부산,vip,offline,electronics,21.0,4,42600.0
+215,대구,VIP,online,electronics,21.0,4,24800.0
+216, 서울,vip,online,beauty,36.0,4,8200.0
+217,서울,gold,app,electronics,39.0,4,65600.0
+218,서울,SILVER,APP,food,69.0,5,
+219,부산,Basic,offline,food,30.0,5,16600.0
+220,광주,gold,app,electronics,25.0,2,23800.0
+221,서울,Basic,APP,fashion,67.0,5,9000.0
+222,부산,VIP,app,electronics,23.0,5,13100.0
+223,부산 ,vip,offline,electronics,16.0,1,
+224, 서울,basic,APP,electronics,38.0,3,79400.0
+225,대구,vip,app,electronics,37.0,6,17800.0
+226,Seoul,basic,offline,beauty,49.0,5,49600.0
+227,대구,Gold,online,beauty,63.0,1,19300.0
+228,부산 ,basic,offline,electronics,66.0,1,36300.0
+229,부산,SILVER,online,food,30.0,5,26600.0
+230, 서울,Gold, Online ,fashion,68.0,4,59800.0
+231,부산,Gold,offline,beauty,49.0,7,19400.0
+232,대구,SILVER,APP,beauty,18.0,4,8500.0
+233,서울,VIP,offline,electronics,66.0,7,9800.0
+234,대구,vip,APP,beauty,22.0,2,19400.0
+235,부산,Basic,APP,beauty,47.0,4,
+236,대구,Gold, Online ,beauty,58.0,1,41300.0
+237,부산 ,Gold,online,electronics,28.0,5,20500.0
+238,부산,silver,online,fashion,29.0,2,198700.0
+239,Seoul,Gold, Online ,fashion,41.0,4,7400.0
+240,부산 ,VIP,online,fashion,63.0,3,35000.0
+241,서울,vip,app,food,27.0,2,12100.0
+242,부산 ,vip,APP,electronics,51.0,1,20000.0
+243,서울,Gold,offline,food,39.0,4,33300.0
+244,부산 ,silver,app,fashion,21.0,7,4600.0
+245,부산 ,vip,offline,fashion,54.0,2,35900.0
+246,서울,silver,offline,beauty,60.0,3,136300.0
+247,대구,gold,offline,beauty,46.0,2,20700.0
+248,Seoul,silver,app,food,24.0,6,36600.0
+249,대구,silver, Online ,beauty,23.0,3,67500.0
+250,서울,Basic,offline,electronics,38.0,7,26100.0
+251, 서울,VIP, Online ,beauty,42.0,2,18700.0
+252,부산,Basic,app,beauty,45.0,1,4800.0
+253, 서울,basic,online,electronics,,5,49700.0
+254,Seoul,VIP,APP,food,42.0,5,27200.0
+255,부산 ,gold,APP,electronics,31.0,7,13200.0
+256, 서울,SILVER,online,food,52.0,7,32900.0
+257,부산 ,Gold, Online ,food,58.0,7,18600.0
+258,서울,SILVER,app,electronics,50.0,5,19500.0
+259, 서울,Basic,app,electronics,15.0,3,48300.0
+260,부산 ,Gold,offline,electronics,69.0,4,
+261,대구,Basic, Online ,food,16.0,1,68700.0
+262, 서울,gold,offline,food,69.0,4,9700.0
+263,Seoul,VIP,app,fashion,16.0,3,17500.0
+264,광주,VIP,offline,electronics,43.0,1,138500.0
+265,광주,silver, Online ,electronics,120.0,2,
+266,부산 ,vip,online,beauty,20.0,4,32100.0
+267,부산,gold,online,electronics,52.0,3,14000.0
+268,Seoul,SILVER, Online ,food,55.0,7,19500.0
+269,부산 ,Basic,offline,fashion,21.0,4,
+270,부산 ,SILVER,online,fashion,68.0,7,30600.0
+271,Seoul,Gold, Online ,food,32.0,5,27600.0
+272,서울,VIP,online,food,32.0,1,29000.0
+273, 서울,basic,offline,food,31.0,2,25000.0
+274,광주,Gold,APP,food,40.0,5,9400.0
+275,Seoul,vip,APP,beauty,24.0,4,19700.0
+276,부산,VIP,APP,fashion,38.0,3,61800.0
+277,부산,SILVER,APP,food,26.0,4,10000.0
+278,대구,basic,APP,fashion,17.0,7,25500.0
+279,서울,silver,online,food,35.0,3,15400.0
+280,서울,vip,offline,electronics,51.0,1,32500.0
+281, 서울,VIP,APP,fashion,56.0,3,21800.0
+282,부산,Gold,APP,food,34.0,7,96900.0
+283,부산 ,basic, Online ,fashion,32.0,6,44600.0
+284,부산,basic,offline,beauty,58.0,6,10400.0
+285,부산,SILVER, Online ,electronics,52.0,7,50900.0
+286,광주,gold,online,fashion,60.0,1,16000.0
+287, 서울,basic,offline,fashion,64.0,2,18700.0
+288,부산 ,Gold, Online ,fashion,60.0,1,38200.0
+289,부산,gold,online,food,,1,20100.0
+290,부산,basic,APP,beauty,37.0,6,60700.0
+291,대구,basic, Online ,electronics,36.0,7,16000.0
+292, 서울,SILVER,offline,beauty,32.0,2,18100.0
+293,광주,Gold,app,food,27.0,6,17600.0
+294,Seoul,vip,online,food,56.0,4,18900.0
+295,부산,SILVER,offline,food,54.0,1,71600.0
+296,부산,silver,app,fashion,59.0,7,49200.0
+297,대구,VIP, Online ,beauty,24.0,7,116800.0
+298,부산,SILVER,APP,fashion,42.0,4,182400.0
+299, 서울,silver,app,food,27.0,5,13000.0
+300,서울,SILVER,online,electronics,64.0,3,31500.0
+301,Seoul,basic,APP,fashion,29.0,6,11600.0
+302,대구,silver,app,food,22.0,4,16000.0
+303,서울,gold,APP,food,46.0,7,18000.0
+304,광주,VIP,offline,food,63.0,1,12800.0
+305,부산,Gold,APP,fashion,65.0,2,12800.0
+306,서울,vip,APP,fashion,20.0,7,26500.0
+307,Seoul,gold, Online ,fashion,32.0,3,11200.0
+308,부산,basic, Online ,food,23.0,3,58300.0
+309,Seoul,SILVER,app,fashion,31.0,6,14300.0
+310,서울,VIP,offline,beauty,,2,281400.0
+311,부산 ,basic,app,fashion,30.0,4,20700.0
+312,부산 ,VIP, Online ,electronics,18.0,3,31500.0
+313,서울,Gold,APP,electronics,43.0,2,10500.0
+314, 서울,silver,offline,food,17.0,7,116400.0
+315, 서울,vip,offline,beauty,27.0,2,72800.0
+316,부산 ,vip, Online ,fashion,15.0,1,37700.0
+317,대구,basic,APP,fashion,19.0,5,10100.0
+318,대구,basic,app,food,38.0,7,35200.0
+319,광주,Gold,app,fashion,61.0,1,12100.0
+320,대구,VIP, Online ,food,57.0,5,95800.0
+321,Seoul,basic,online,food,20.0,4,56800.0
+322,서울,Gold, Online ,beauty,16.0,6,32100.0
+323,부산 ,Basic,app,food,33.0,1,4200.0
+324,광주,Gold,offline,beauty,50.0,7,13500.0
+325,광주,gold,offline,beauty,56.0,5,51500.0
+326, 서울,basic,online,beauty,60.0,6,78500.0
+327, 서울,Gold,APP,fashion,33.0,3,72200.0
+328,서울,VIP,online,beauty,24.0,7,8300.0
+329,서울,vip,APP,electronics,16.0,5,37800.0
+330,부산,basic, Online ,beauty,23.0,1,
+331,부산,Basic,app,food,18.0,7,7900.0
+332,Seoul,Basic,APP,beauty,62.0,6,29500.0
+333,Seoul,SILVER,app,electronics,29.0,3,37000.0
+334,대구,Basic,offline,fashion,60.0,4,
+335,부산,vip,app,food,45.0,3,6800.0
+336,대구,vip,offline,fashion,44.0,4,22900.0
+337,광주,vip,APP,beauty,40.0,7,22900.0
+338,Seoul,Basic, Online ,food,60.0,7,26400.0
+339, 서울,basic,APP,fashion,17.0,2,18900.0
+340,광주,VIP,app,electronics,20.0,7,20900.0
+341,부산 ,silver,app,food,38.0,4,
+342,Seoul,Gold,online,fashion,36.0,5,42400.0
+343,부산 ,VIP,online,beauty,45.0,6,23300.0
+344,부산,basic,app,beauty,55.0,4,21400.0
+345,광주,basic,online,electronics,47.0,4,32000.0
+346, 서울,basic,offline,electronics,29.0,4,6400.0
+347,광주,Basic,offline,food,33.0,7,43500.0
+348,광주,basic,APP,electronics,56.0,3,29700.0
+349, 서울,vip,APP,electronics,26.0,2,30700.0
+350, 서울,gold,app,fashion,42.0,3,64100.0
+351,부산,VIP,online,fashion,44.0,2,6200.0
+352,서울,vip, Online ,food,56.0,3,6100.0
+353,Seoul,VIP,app,food,54.0,1,37000.0
+354,부산,Basic,offline,fashion,40.0,1,29600.0
+355,광주,silver, Online ,fashion,32.0,6,34100.0
+356,광주,vip,app,beauty,35.0,1,20500.0
+357, 서울,Basic, Online ,food,37.0,4,50600.0
+358,광주,basic,online,electronics,27.0,6,62700.0
+359,서울,Gold,online,electronics,49.0,6,43800.0
+360,대구,vip, Online ,electronics,26.0,4,24100.0
+361,대구,VIP,online,electronics,50.0,2,5500.0
+362,광주,VIP,online,food,56.0,50,55000.0
+363, 서울,basic, Online ,beauty,67.0,6,79000.0
+364,광주,vip, Online ,food,21.0,5,49800.0
+365,서울,vip,app,beauty,56.0,1,14700.0
+366,부산,Gold,online,food,,1,51000.0
+367,부산,vip, Online ,fashion,33.0,3,59200.0
+368,Seoul,vip,app,beauty,24.0,2,103500.0
+369,서울,SILVER,offline,fashion,23.0,7,14800.0
+370,대구,basic,APP,beauty,24.0,2,24800.0
+371,Seoul,SILVER,offline,fashion,17.0,2,54100.0
+372,부산 ,Basic, Online ,fashion,,7,31100.0
+373,Seoul,basic,app,electronics,18.0,6,12200.0
+374,Seoul,basic,app,beauty,36.0,2,41400.0
+375,광주,Gold,offline,food,53.0,3,47200.0
+376,서울,gold,offline,fashion,69.0,4,31900.0
+377,대구,gold,offline,fashion,61.0,5,35400.0
+378,대구,Gold,APP,beauty,22.0,7,24200.0
+379,Seoul,gold,app,electronics,69.0,7,97000.0
+380, 서울,Gold,app,fashion,50.0,7,14500.0
+381,서울,basic,offline,food,24.0,1,18600.0
+382,광주,vip, Online ,food,39.0,2,30000.0
+383,광주,SILVER, Online ,fashion,65.0,4,60100.0
+384, 서울,Basic,offline,beauty,36.0,1,9000.0
+385,서울,vip, Online ,electronics,25.0,3,10400.0
+386,서울,Gold, Online ,fashion,63.0,2,5800.0
+387,서울,basic,app,electronics,67.0,7,30500.0
+388,대구,Basic, Online ,food,68.0,1,12200.0
+389,광주,basic,offline,fashion,67.0,2,21900.0
+390, 서울,silver,offline,food,,2,50500.0
+391,대구,basic, Online ,fashion,39.0,2,17800.0
+392, 서울,Gold,app,fashion,25.0,4,35800.0
+393,Seoul,gold,offline,beauty,3.0,3,23400.0
+394,부산 ,VIP,APP,electronics,27.0,7,50900.0
+395,대구,Gold, Online ,fashion,41.0,2,43500.0
+396,광주,gold,app,beauty,51.0,4,17100.0
+397,서울,gold,APP,electronics,67.0,5,26000.0
+398, 서울,basic,APP,beauty,30.0,5,68500.0
+399, 서울,basic,online,electronics,28.0,6,40700.0
+400,Seoul,gold, Online ,food,55.0,2,9700.0
+401,광주,basic,offline,electronics,15.0,4,50200.0
+402,대구,basic, Online ,electronics,46.0,6,12500.0
+403,Seoul,Basic, Online ,electronics,56.0,7,92000.0
+404,광주,VIP, Online ,fashion,45.0,5,67500.0
+405,부산,SILVER,online,food,36.0,5,37500.0
+406,부산,Gold,online,fashion,60.0,7,33700.0
+407,부산,SILVER, Online ,food,35.0,5,25200.0
+408, 서울,Basic,offline,fashion,54.0,7,51200.0
+409,광주,silver,online,fashion,40.0,1,22100.0
+410,서울,basic, Online ,beauty,16.0,3,35900.0
+411, 서울,vip,online,fashion,44.0,1,59700.0
+412, 서울,Basic,app,beauty,17.0,1,19000.0
+413, 서울,SILVER, Online ,fashion,66.0,4,18200.0
+414,서울,VIP,APP,beauty,48.0,2,11400.0
+415,서울,gold,app,food,35.0,3,12700.0
+416,부산 ,SILVER,APP,electronics,41.0,4,6900.0
+417,광주,gold,APP,food,,5,53300.0
+418,서울,vip,app,food,29.0,7,126400.0
+419,Seoul,silver,offline,food,30.0,6,93000.0
+420,부산,Gold,app,electronics,38.0,3,8100.0
+421,광주,vip,offline,food,29.0,3,53100.0
+422,부산 ,gold,offline,electronics,,6,92800.0
+423,대구,SILVER,app,beauty,20.0,1,
+424,부산 ,Basic,APP,food,60.0,4,32200.0
+425,Seoul,Basic, Online ,food,34.0,3,6000.0
+426, 서울,VIP,offline,fashion,45.0,2,36800.0
+427,광주,gold,APP,food,23.0,5,12700.0
+428,대구,silver,offline,fashion,36.0,3,34900.0
+429,서울,SILVER, Online ,fashion,56.0,2,8500.0
+430,대구,gold,APP,beauty,29.0,5,45900.0
+431,서울,gold,app,fashion,22.0,2,67500.0
+432,대구,Gold,online,food,43.0,5,15900.0
+433,대구,silver,online,beauty,23.0,2,12000.0
+434,서울,Gold,app,beauty,32.0,4,5300.0
+435,부산,SILVER, Online ,fashion,39.0,6,24000.0
+436,서울,VIP,online,fashion,46.0,2,18700.0
+437,부산,Basic,app,food,50.0,6,8600.0
+438,광주,Basic,APP,electronics,52.0,6,42700.0
+439,서울,SILVER, Online ,beauty,61.0,7,20700.0
+440,Seoul,gold,offline,fashion,18.0,2,12600.0
+441,광주,Gold,APP,fashion,34.0,6,19100.0
+442,Seoul,SILVER,app,food,15.0,7,70100.0
+443,서울,VIP,offline,beauty,15.0,6,48200.0
+444,부산,SILVER,app,fashion,26.0,2,26800.0
+445,부산,Basic,online,food,47.0,6,48800.0
+446,부산 ,basic,online,fashion,64.0,1,11700.0
+447,Seoul,VIP,offline,fashion,57.0,5,30500.0
+448,광주,Basic,offline,beauty,50.0,4,33500.0
+449,부산,VIP,APP,fashion,57.0,4,20400.0
+450,Seoul,silver,online,food,24.0,4,42100.0
+451,광주,basic, Online ,beauty,61.0,1,15900.0
+452,광주,silver,online,electronics,63.0,4,44700.0
+453,부산,gold,online,fashion,20.0,7,46200.0
+454,서울,SILVER, Online ,food,40.0,4,2900.0
+455,부산 ,vip,app,beauty,60.0,2,77100.0
+456,부산,gold,online,food,41.0,7,2600.0
+457, 서울,SILVER,offline,electronics,61.0,1,18200.0
+458,부산 ,Gold,app,electronics,66.0,4,67500.0
+459,대구,VIP, Online ,electronics,41.0,4,23100.0
+460,서울,SILVER,app,fashion,18.0,4,9200.0
+461,대구,Basic,APP,beauty,33.0,7,12400.0
+462,서울,SILVER, Online ,beauty,26.0,3,67600.0
+463,대구,vip,online,fashion,41.0,7,6400.0
+464,Seoul,Basic,online,beauty,47.0,1,73400.0
+465,서울,VIP,offline,beauty,40.0,6,28500.0
+466,광주,gold,online,electronics,25.0,5,11500.0
+467, 서울,gold,APP,food,31.0,2,18600.0
+468,부산 ,silver, Online ,food,52.0,2,13200.0
+469, 서울,VIP,APP,beauty,16.0,6,59500.0
+470,광주,basic,online,fashion,26.0,5,53400.0
+471,대구,silver,offline,beauty,64.0,5,7500.0
+472,대구,SILVER,APP,beauty,,25,21500.0
+473,부산,SILVER,app,electronics,37.0,5,14900.0
+474,부산,SILVER, Online ,food,26.0,7,83700.0
+475,부산 ,Basic,offline,electronics,20.0,1,10100.0
+476,대구,Basic, Online ,fashion,38.0,4,107300.0
+477,대구,basic,app,beauty,43.0,4,29000.0
+478,서울,gold, Online ,food,24.0,7,11700.0
+479,부산 ,silver, Online ,fashion,19.0,2,17300.0
+480,서울,gold,app,beauty,22.0,4,15700.0
+481,Seoul,gold,online,electronics,50.0,6,10700.0
+482,대구,Gold,online,electronics,62.0,1,32100.0
+483, 서울,gold, Online ,fashion,24.0,6,11100.0
+484,대구,Gold,online,beauty,32.0,6,5200.0
+485,부산,gold,app,electronics,33.0,6,21900.0
+486, 서울,Gold,offline,beauty,34.0,5,7000.0
+487,Seoul,gold,online,beauty,28.0,6,16300.0
+488,부산,silver,online,fashion,18.0,6,14400.0
+489,대구,Basic,online,fashion,43.0,7,14800.0
+490,부산 ,vip,app,beauty,34.0,3,147400.0
+491,광주,silver, Online ,electronics,33.0,4,
+492,광주,gold,app,food,120.0,5,36200.0
+493,대구,Basic,online,food,66.0,50,7200.0
+494,부산 ,SILVER, Online ,electronics,48.0,6,17600.0
+495,Seoul,gold,app,beauty,38.0,6,35300.0
+496,Seoul,Gold,app,fashion,26.0,5,13100.0
+497,서울,gold,app,electronics,59.0,3,61500.0
+498,Seoul,silver,APP,beauty,63.0,3,11400.0
+499,광주,VIP,app,food,16.0,4,23600.0
+500,Seoul,gold,offline,food,66.0,5,18600.0
+305,부산,Gold,APP,fashion,65.0,2,12800.0
+341,부산 ,silver,app,food,38.0,4,
+48,광주,gold,APP,beauty,44.0,5,28700.0
+68,Seoul,Basic,APP,electronics,64.0,5,25900.0
+480,서울,gold,app,beauty,22.0,4,15700.0
+486, 서울,Gold,offline,beauty,34.0,5,7000.0
+311,부산 ,basic,app,fashion,30.0,4,20700.0
+32, 서울,Basic,online,fashion,24.0,6,29200.0
+250,서울,Basic,offline,electronics,38.0,7,26100.0
+91,부산,vip,app,electronics,63.0,1,
